@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Naresh Barua">
+    <title>HTML Tags</title>
+    <link rel="icon" href="/Images/Title.png">
+</head>
+<body style="background-color: rgb(212, 233, 136); font-family:Courier;" >
+    <header>
+        <!--<h4 style="border:2px solid Tomato;">Naresh Barua</h4>-->
+        <h1 style="text-align: center;"> <span style="text-align: center; border-width: 2px; border-radius: 20px 0px ; border-style:solid; border-color:#000000; padding:0.3em ">HTML Tags </span></h1>
+        <span><nav style="border-width: 2px; border-style:solid; border-color:#000000; padding:5px; background-color:aliceblue"> 
+            <h3>List With Link</h3>
+            <ul>
+                
+                <li><a href="#list1">List 1</a></li>
+                <li><a href="#list2">List 2</a></li>
+                <li><a href="#list3">List 3</a></li>
+            </ul>
+        </nav></span>
+    </header> <br>
+
+    <main>
+        <section id="section1" style="border-width: 2px; border-style:dotted; padding:5px">
+            <h2 style="text-align: left;"> <span style="text-align: center; border-width:3px; background-color:rgb(255, 255, 255); padding:0.3em; border-radius:20px 20px ">Text Elements </span></h2>
+            <p>This is a <strong>paragraph</strong> with <em>emphasized</em> text.</p>
+            <blockquote>This is a blockquote.</blockquote>
+            <p>This is a text with a <code>code</code> tag.</p>
+            <mark>Highlighted text</mark> <br> <br>
+            <del>Deleted text</del> <br><br>
+            <ins>Inserted text</ins>
+        </section> <br>
+
+        <section id="section2" style="border-width: 2px; border-style:dotted; padding:5px">
+            <h2 style="text-align: left;"> <span style="text-align: center; border-width:3px; background-color:rgb(255, 255, 255); padding:0.3em; border-radius:20px 20px ">Lists </span></h2>
+            <h3>Ordered List</h3>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+            <h3>Unordered List</h3>
+            <ul>
+                <li>Item A</li>
+                <li>Item B</li>
+                <li>Item C</li>
+            </ul>
+            <h3>Description List</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language</dd>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets</dd>
+            </dl>
+        </section> <br>
+
+        <section id="section3" style="border-width: 2px; border-style:dotted; padding:5px">
+            <h2 style="text-align: left;"> <span style="text-align: center; border-width:3px; background-color:rgb(255, 255, 255); padding:0.3em; border-radius:20px 20px ">Multimedia </span></h2>
+            
+            <h3><u>Image</u></h3>
+            <figure>
+                <img src="/Images/HTML 5.png" width="120" alt="Example Image">
+                <figcaption>HTML Image</figcaption>
+            </figure> <br>
+
+            <h3><u>Audio</u></h3>
+            <audio controls >
+                
+                <source src="/Audio/Keys To Unravel.mp3" type="audio/mpeg">
+                
+            </audio> <br> <br>
+            <h3><u>Video</u></h3>
+            <video controls width="420" height="240" controls>
+                    <source src="/Video/code.mp4" type="video/mp4">    
+            </video>
+        </section> <br>
+
+        <section style="border-width: 2px; border-style:dotted; padding:5px">
+            <h2>Forms</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name  :</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="password">Key :</label>
+                <input type="password" id="password" name="password">
+                <br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea>
+                <br>
+                <select name="options" id="options">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <br>
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe to newsletter</label>
+                <br>
+                <input type="radio" id="choice1" name="choice" value="1">
+                <label for="choice1">Choice 1</label>
+                <input type="radio" id="choice2" name="choice" value="2">
+                <label for="choice2">Choice 2</label>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Naresh Barua. All rights reserved.</p>
+        <address>
+            Contact: <a href="mailto:nareshbarua72@gmail.com">nareshbarua72@gmail.com</a>
+        </address>
+    </footer>
+</body>
+</html>
